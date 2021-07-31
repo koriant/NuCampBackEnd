@@ -1,6 +1,4 @@
 const express = require('express');
-const { set } = require('mongoose');
-const { response } = require('../app');
 const Partner = require('../models/partner');
 
 const partnerRouter = express.Router();
